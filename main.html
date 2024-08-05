@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Recommender</title>
+    <link rel="stylesheet" href="./styleMain.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container text-center">
+        <div class="main">
+            <div class="title my-5">
+                <h1>ARTICLE RECOMMENDER</h1>
+            </div>
+            <div class="input_values">
+                <div class="user_selection my-3">
+                    <h3>Select User</h3>
+                    <input type="text" id="userInput" class="form-control" placeholder="Eg: User_14406">
+                </div>
+                <div class="no_of_recommendations my-3">
+                    <h3>Number of Recommendations</h3>
+                    <input type="number" id="numRecommendations" class="form-control" placeholder="Eg: 5" min="1" max="10">
+                </div>
+                <div class="get_recommendations my-3">
+                    <button type="button" class="btn btn-primary" onclick="getRecommendations()">Show Recommendations</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

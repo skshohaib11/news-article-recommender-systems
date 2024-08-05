@@ -1,0 +1,87 @@
+html, body {
+    background-image: url("./Images/Background%20image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body > div > div {
+    height: 30rem;
+    width: 60rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.user_selection, .no_of_recommendations, .get_recommendations {
+    width: 100%;
+    max-width: 400px;
+}
+
+.user_selection h3, .no_of_recommendations h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+body > div > div > div.input_values > div.user_selection.my-3 > h3 {
+    width: 130px;
+}
+
+body > div > div > div.input_values > div.no_of_recommendations.my-3 > h3 {
+    width: 338px;
+    
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    padding: 15px;
+    border-radius: 25px; /* Increased border-radius for more rounded corners */
+    font-size: 1rem; /* Adjust font size for better readability */
+    margin-bottom: 10px; /* Added margin for better spacing between input fields */
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, rgb(239, 58, 58) 0%, rgb(110, 31, 149) 100%);
+    border: none;
+    padding: 15px 30px; /* Increased padding for a bigger button */
+    font-size: 1.2rem;
+    border-radius: 25px; /* Increased border-radius for more rounded corners */
+    cursor: pointer;
+    transition: background 0.4s ease;
+    text-align: center; /*Center-align text*/
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, rgb(110, 31, 149) 0%, rgb(239, 58, 58) 100%);
+}
+
+body > div > div > div.input_values {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,9 @@
+streamlit
+zipfile36 
+numpy
+matplotlib
+pandas
+scikit-learn
+Flask
+nltk
+pickle-mixin
